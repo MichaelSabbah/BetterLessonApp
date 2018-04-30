@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Headlines style -->
+    <style name="HeadlineStyle">
+        <item name="android:textSize">65dp</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">cursive</item>
+    </style>
+
+    <style name="ProfileName">
+        <item name="android:textSize">45dp</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">cursive</item>
+    </style>
+
+    <!-- Tabs headlines -->
+    <style name="TabsHeadlineStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/my_background</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="ButtonText">
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:paddingRight">@dimen/button_padding</item>
+        <item name="android:paddingLeft">@dimen/button_padding</item>
+    </style>
+
+    <!-- Text -->
+    empty_list_text_size
+    <style name="TextStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/regular_text_size</item>
+    </style>
+
+    <!-- Text -->
+    empty_list_text_size
+    <style name="FieldsNameTextStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/fields_text_size</item>
+    </style>
+
+    <style name="ProfileFieldsNameTextStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/profile_fields_text_size</item>
+    </style>
+
+    <style name="fieldsValueTextStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/fields_text_size</item>
+    </style>
+
+    <style name="EmptyListTextStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/empty_list_text_size</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+</resources>

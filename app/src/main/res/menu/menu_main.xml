@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.michael.betterlesson.MainActivity">
+
+    <item
+        android:id="@+id/menu_log_out"
+        android:orderInCategory="101"
+        android:title="@string/log_out"
+        app:showAsAction="never" />
+
+        <item
+            android:id="@+id/delete_button"
+            android:title="@string/delete"
+            android:icon="@mipmap/grabage_icon"
+            android:visible="false"
+            app:showAsAction="always" />
+
+    <item
+        android:id="@+id/user_profile"
+        android:title="@string/user_profile_button_title"
+        android:icon="@mipmap/user_progile_icon"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">BetterLesson</string>
+
+    <!-- Login activity strings-->
+    <string name="login_button">Log in</string>
+    <string name="new_account">No account yet?</string>
+    <string name="create_one">Create one</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+
+    <!-- Sign Up activity strings -->
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="full_name_field">Name</string>
+    <string name="email_field">Email</string>
+    <string name="address_field">Address</string>
+    <string name="password">Password</string>
+    <string name="sign_up_button">Create Account</string>
+    <string name="profile_type">Profile type</string>
+    <string name="teacher_type">Teacher</string>
+    <string name="student_type">Student</string>
+    <string name="price_field">Price</string>
+
+    <!-- Students/Teachers tab -->
+    <string name="students_empty_list">No students</string>
+    <string name="teachers_empty_list">No teachers</string>
+    <string name="new_student_button">New student</string>
+    <string name="new_teacher_button">New teacher</string>
+    <string name="students_header">Students</string>
+    <string name="teachers_header">Teachers</string>
+
+    <!-- Lessons tab -->
+    <string name="lessons_header">Lessons</string>
+    <string name="lessons_empty_list">No lessons</string>
+
+    <!-- HW tab -->
+    <string name="hw_header">H.W</string>
+    <string name="empty_hw_list">No H.W</string>
+
+    <!-- Profile page -->
+    <string name="profile_email_field"><u>Email</u></string>
+    <string name="profile_address_field"><u>Address</u></string>
+    <string name="profile_age_field"><u>Age</u></string>
+
+    <!-- New HW activity -->
+    <string name="tap_to_upload_file">Tap to upload file</string>
+    <string name="select_student_hw">Select student for whom the h.w are</string>
+    <string name="uploading_file">Uploading file</string>
+    <string name="download_hw">Download</string>
+
+    <!-- New contact activity-->
+    <string name="existing_student">Student with the app?</string>
+    <string name="click_here_new_user">Click here</string>
+    <string name="new_student_header">New student</string>
+    <string name="fill_student_details">Fill student details</string>
+    <string name="fill_teacher_details">Fill teacher details</string>
+    <string name="add_button">Add</string>
+    <string name="courses_field">Courses</string>
+
+    <!-- New lesson date activity-->
+    <string name="select_student_lesson">Select student for the lesson</string>
+    <string name="select_teacher">Select teacher for the lesson</string>
+
+    <!-- Lesson page activity -->
+    <string name="student_contact_type">Name:</string>
+    <string name="teacher_contact_type">Name:</string>
+    <string name="lesson_date_field">Date:</string>
+    <string name="lesson_addres_field">Address:</string>
+    <string name="lesson_time_field">Hour:</string>
+    <string name="lesson_course_field">Course:</string>
+    <string name="subjects_header">Subjects</string>
+    <string name="new_subject">New Subject</string>
+
+    <!-- Top menu -->
+    <string name="log_out">Logout</string>
+    <string name="user_profile_button_title">user profile</string>
+
+    <!-- Strings related to login (delete)-->
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Errors strings -->
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="delete">Delete</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "666572766551",
+    "firebase_url": "https://betterlesson-5d2a9.firebaseio.com",
+    "project_id": "betterlesson-5d2a9",
+    "storage_bucket": "betterlesson-5d2a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666572766551:android:db87c4d6f253eaf4",
+        "android_client_info": {
+          "package_name": "com.example.michael.betterlesson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666572766551-0je3f3l93fou9ijjc902gtjn7sla8k97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.michael.betterlesson",
+            "certificate_hash": "d2962beff89dd2909e2135def0aa7d11a25bdbe3"
+          }
+        },
+        {
+          "client_id": "666572766551-dogbok3r0ltbel56pkbvv4ect9kqjacu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqzum8wyU9TF3tWlNRaChlJO4vFcIiT1A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666572766551-dogbok3r0ltbel56pkbvv4ect9kqjacu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

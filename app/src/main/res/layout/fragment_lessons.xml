@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.michael.betterlesson.Tabs.LessonsFragment">
+
+    <TextView
+        android:id="@+id/empty_lessons_list_text"
+        style="@style/EmptyListTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="?attr/actionBarSize"
+        android:gravity="center"
+        android:text="@string/lessons_empty_list"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/lessons_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="@dimen/divider_height"
+        android:nestedScrollingEnabled="true"
+        android:divider="@drawable/list_view_divider_full_width"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="0.5dp" />
+
+</LinearLayout>

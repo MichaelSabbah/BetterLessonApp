@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.michael.betterlesson.LessonPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/circle_status_circle_border"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/border_circle_view">
+        <TextView
+            android:id="@+id/lesson_status_circle"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/green_circle_view" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:gravity="center_horizontal">
+
+<LinearLayout
+    android:id="@+id/border"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="0.7"
+    android:layout_marginTop="25dp"
+    android:weightSum="1"
+    android:background="@drawable/round_border">
+
+
+        <LinearLayout
+            android:id="@+id/name_field"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.45"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FieldsNameTextStyle"
+                android:id="@+id/contact_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/student_contact_type" />
+
+            <TextView
+                style="@style/FieldsNameTextStyle"
+                android:id="@+id/lesson_course_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/lesson_course_field" />
+
+            <TextView
+                style="@style/FieldsNameTextStyle"
+                android:id="@+id/lesson_date_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/lesson_date_field" />
+
+            <TextView
+                style="@style/FieldsNameTextStyle"
+                android:id="@+id/lesson_hour_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/lesson_time_field" />
+
+            <TextView
+                style="@style/FieldsNameTextStyle"
+                android:id="@+id/lesson_addres_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/lesson_addres_field" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/values"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.55">
+
+        <TextView
+            style="@style/fieldsValueTextStyle"
+            android:id="@+id/contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            style="@style/fieldsValueTextStyle"
+            android:id="@+id/lesson_course_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            style="@style/fieldsValueTextStyle"
+            android:id="@+id/lesson_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/fieldsValueTextStyle"
+                android:id="@+id/lesson_starting_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                style="@style/fieldsValueTextStyle"
+                android:id="@+id/lesson_ending_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/fieldsValueTextStyle"
+            android:id="@+id/lesson_addres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+</LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/subjects_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:layout_weight="0.4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/FieldsNameTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:text="@string/subjects_header"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+            <EditText
+                android:id="@+id/new_subject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="0.8"
+                android:layout_marginLeft="10dp"
+                android:hint="@string/new_subject"
+                android:background="@drawable/round_edit_text"/>
+            <ImageView
+                android:id="@+id/add_subject_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@mipmap/add_button"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/secondaryColor" />
+
+        <ListView
+            android:id="@+id/subjects_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="@dimen/divider_height"
+            android:nestedScrollingEnabled="true"
+            android:divider="@drawable/list_view_divider_full_width"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="0.5dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

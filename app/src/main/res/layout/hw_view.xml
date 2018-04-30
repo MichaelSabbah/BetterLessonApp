@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/activatedBackgroundIndicator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.35"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@drawable/hw_image_border">
+
+        <ImageView
+            android:id="@+id/document_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/documents"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.45"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+        <TextView
+            style="@style/TextStyle"
+            android:id="@+id/uploaded_by_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="Uploaded by: "
+            android:textStyle="bold"/>
+        <TextView
+            style="@style/TextStyle"
+            android:id="@+id/course_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="course: "
+            android:textStyle="bold"/>
+        <TextView
+            style="@style/TextStyle"
+            android:id="@+id/expiration_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/expiration_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:layout_gravity="center"
+        android:src="@mipmap/fill_ok_icon"
+        android:visibility="gone"/>
+    </LinearLayout>
+</RelativeLayout>
